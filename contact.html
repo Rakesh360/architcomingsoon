@@ -21,6 +21,28 @@
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 
 <link rel="stylesheet" href="css/main2.css" />
+
+<style>
+
+   .iframe-container{
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+  }
+  .iframe-container > *{
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+  }
+
+</style>
 <script>(function(w,d){!function(e,t,r,a,s){e[r]=e[r]||{},e[r].executed=[],e.zaraz={deferred:[]};var n=t.getElementsByTagName("title")[0];e[r].c=t.cookie,n&&(e[r].t=t.getElementsByTagName("title")[0].text),e[r].w=e.screen.width,e[r].h=e.screen.height,e[r].j=e.innerHeight,e[r].e=e.innerWidth,e[r].l=e.location.href,e[r].r=t.referrer,e[r].k=e.screen.colorDepth,e[r].n=t.characterSet,e[r].o=(new Date).getTimezoneOffset(),//
 e[s]=e[s]||[],e.zaraz._preTrack=[],e.zaraz.track=(t,r)=>e.zaraz._preTrack.push([t,r]),e[s].push({"zaraz.start":(new Date).getTime()});var i=t.getElementsByTagName(a)[0],o=t.createElement(a);o.defer=!0,o.src=""+new URLSearchParams(e[r]).toString(),i.parentNode.insertBefore(o,i)}(w,d,"zarazData","script","dataLayer");})(window,document);</script></head>
 <body>
@@ -116,7 +138,7 @@ Contact Us
 </div>
 </div>
 
-<div >
+<div class="iframe-container">
     
    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.2772134060265!2d77.04706171455868!3d28.591459392690613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b1f7c5a9bc5%3A0xa81e315086339948!2sFehu%20Archiit!5e0!3m2!1sen!2sin!4v1642027616769!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
